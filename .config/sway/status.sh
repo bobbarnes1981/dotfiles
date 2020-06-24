@@ -6,5 +6,5 @@ host=$(hostname)
 kernel=$(uname -s)
 cpu=$(top -n 1 -b -i | grep 'Cpu(s)' | awk -F ' ' '{print $2}')
 
-echo -e "$host $USER \U1f427 $kernel $linux_version \U1f4bb $cpu% \U1f50b $battery_status \U1f4c5 $date_formatted"
+echo -e "$kernel $linux_version \U1f427 $cpu% \U1f4bb $battery_status \U1f50b $date_formatted"
 
