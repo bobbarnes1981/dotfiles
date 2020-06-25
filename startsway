@@ -9,4 +9,5 @@ if test -z "${XDG_RUNTIME_DIR}"; then
 fi
 
 /usr/bin/sway -c ~/.config/sway/config
+#/usr/bin/sway -c ~/.config/sway/config -d 2> ~/sway.log
 
