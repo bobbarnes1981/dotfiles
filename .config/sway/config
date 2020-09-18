@@ -230,3 +230,5 @@ bindsym $ps2 exec grim -g "$(slurp)" - | wl-copy
 bindsym $ps3 exec grim $HOME/ps_$(date +"%Y%m%d%H%M%S").png
 bindsym $ps4 exec grim -g "$(slurp)" $HOME/ps_$(date +"%Y%m%d%H%M%S").png
 
+for_window [instance="forscan.exe"] floating enable
+
