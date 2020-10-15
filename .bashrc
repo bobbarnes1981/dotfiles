@@ -14,6 +14,7 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
+export PATH=$PATH:/home/robert/.local/bin
 
 # Put your fun stuff here.
 alias dotfiles='/usr/bin/git --git-dir=/home/robert/.dotfiles/.git --work-tree=/home/robert'
